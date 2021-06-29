@@ -7,6 +7,7 @@
   <groupId>com.myApp</groupId>
   <artifactId>HelloWorldApp</artifactId>
   <version>1.0-SNAPSHOT</version>
+  <packaging>war</packaging>
 
   <name>HelloWorldApp</name>
   <!-- FIXME change it to the project's website -->
@@ -68,6 +69,10 @@
         <plugin>
           <artifactId>maven-project-info-reports-plugin</artifactId>
           <version>3.0.0</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-war-plugin</artifactId>
+          <version>3.3.1</version>
         </plugin>
       </plugins>
     </pluginManagement>
